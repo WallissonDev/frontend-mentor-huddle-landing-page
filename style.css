@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+body{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+main#fatherContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+img#ilustrationImage{
+    padding-top: 15px;
+    align-self: center;
+}
+
+article#textArticle{
+    line-height: 1.55em;
+}
+
+div#buttonContainer{
+    display: flex;
+    padding: 25px;
+    margin: auto;
+}
+input#register-button{
+    color: hsl(257, 40%, 49%);
+    border: none;
+    flex: 0 0 220px;
+    height: 50px;
+    border-radius: 70px; 
+    align-self: center;
+}
+
+h1, article{
+    text-align: center;
+}
+
+.attribution{
+    text-align: center;
+}
+
+.attribution > a{
+    text-decoration: none;
+    color: black;
+}
+
+.attribution > a:hover{
+    color: pink;
+}
+
+.footerDivLinks{
+    text-align: center;
+}
+
+.footerDivLinks > a{
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+.fa-brands{
+    color: white;
+}
+
