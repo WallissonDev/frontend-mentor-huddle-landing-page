@@ -29,16 +29,17 @@ article#textArticle{
 
 div#buttonContainer{
     display: flex;
-    padding: 25px;
-    margin: auto;
+    padding: 35px;
+    justify-content: center;
+
 }
+
 input#register-button{
     color: hsl(257, 40%, 49%);
     border: none;
     flex: 0 0 220px;
     height: 50px;
     border-radius: 70px; 
-    align-self: center;
 }
 
 h1, article{
@@ -72,3 +73,39 @@ h1, article{
     color: white;
 }
 
+footer{
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    div#asideContent{
+        position: absolute;
+
+        left: 50%;
+        top: 35%;
+    }
+
+    h1{
+        
+    }
+    div#imageContentLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        position: absolute;
+
+        left: 4%;
+        top: 5%;
+    }
+
+    img#logoImage{
+        width: 175px;
+        top: 0%;
+        padding-bottom: 100px;
+    }
+
+    img#ilustrationImage{
+        width: 600px;
+    }
+}
