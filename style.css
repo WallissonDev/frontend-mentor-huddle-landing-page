@@ -3,6 +3,13 @@
 
 
 body{
+    height: 97vh;
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;;
+
     color: white;
     font-family: "Open Sans", sans-serif;
 
@@ -12,100 +19,30 @@ body{
     background-color: hsl(257, 40%, 49%);
 }
 
-main#fatherContainer{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-img#ilustrationImage{
-    padding-top: 15px;
-    align-self: center;
-}
-
-article#textArticle{
-    line-height: 1.55em;
-}
-
-div#buttonContainer{
-    display: flex;
-    padding: 35px;
-    justify-content: center;
-
-}
-
-input#register-button{
-    color: hsl(257, 40%, 49%);
-    border: none;
-    flex: 0 0 220px;
-    height: 50px;
-    border-radius: 70px; 
-}
-
-h1, article{
-    text-align: center;
-}
-
-.attribution{
-    text-align: center;
-}
-
-.attribution > a{
-    text-decoration: none;
-    color: black;
-}
-
-.attribution > a:hover{
-    color: pink;
-}
-
-.footerDivLinks{
-    text-align: center;
-}
-
-.footerDivLinks > a{
-    border: 1px solid white;
-    padding: 7px;
-    border-radius: 100%;
-}
-
-.fa-brands{
-    color: white;
-}
-
-footer{
+body::-webkit-scrollbar{
     display: none;
 }
 
-@media screen and (min-width: 1440px) {
-    div#asideContent{
-        position: absolute;
+header#logoContent{
+    display: flex;
+    align-self: flex-start;
+}
 
-        left: 50%;
-        top: 35%;
-    }
+main#fatherContainer{
+    display: flex;
+    align-content: center;
+}
 
-    h1{
-        
-    }
-    div#imageContentLeft{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+img#ilustrationImage{
+    width: 500px;
+    padding-right: 20px;   
+}
 
-        position: absolute;
+footer#socialMedia{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
-        left: 4%;
-        top: 5%;
-    }
-
-    img#logoImage{
-        width: 175px;
-        top: 0%;
-        padding-bottom: 100px;
-    }
-
-    img#ilustrationImage{
-        width: 600px;
-    }
+div#mediaLink{
 }
