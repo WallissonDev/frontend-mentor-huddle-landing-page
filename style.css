@@ -26,23 +26,83 @@ body::-webkit-scrollbar{
 header#logoContent{
     display: flex;
     align-self: flex-start;
+    margin: 20px;
 }
 
 main#fatherContainer{
     display: flex;
-    align-content: center;
+    justify-content: space-evenly;  
 }
 
 img#ilustrationImage{
-    width: 500px;
+    width: 600px;
     padding-right: 20px;   
 }
 
 footer#socialMedia{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
 div#mediaLink{
+}
+
+h1 {
+    max-width: 350px;
+}
+
+p#textContent{
+    max-width: 600px;
+}
+
+input#registerButton{
+    font-family: "Open Sans", sans-serif;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.496);
+    color: #4a23ac;
+    border-radius: 150px;
+    text-align: center;
+    font-weight: 500;
+}
+input#registerButton:hover{
+    background-color: #c36fff;
+    color: white;
+    cursor: pointer;
+}
+
+div#mediaLinks > a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+div#mediaLinks > a:hover{
+    background-color: #c36fff;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px){
+    main#fatherContainer{
+        flex-direction: column;
+    }
+    img#ilustrationImage{
+        width: 250px;
+        align-self: center;
+    }
+
+    h1{
+        font-size: 1.7em;
+        text-align: center;
+    }
+    p#textContent{
+        text-align: center;
+    }
+    input#registerButton{
+    }
 }
