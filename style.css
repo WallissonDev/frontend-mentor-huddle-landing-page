@@ -34,6 +34,7 @@ main#fatherContainer{
     justify-content: space-evenly;  
 }
 
+
 img#ilustrationImage{
     width: 600px;
     padding-right: 20px;   
@@ -92,8 +93,14 @@ div#mediaLinks > a:hover{
         flex-direction: column;
     }
     img#ilustrationImage{
-        width: 250px;
+        width: 70vw;
         align-self: center;
+    }
+
+    div#asideContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     h1{
@@ -104,5 +111,13 @@ div#mediaLinks > a:hover{
         text-align: center;
     }
     input#registerButton{
+    }
+
+    footer#socialMedia{
+        margin: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
