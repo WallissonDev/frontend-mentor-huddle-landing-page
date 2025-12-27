@@ -24,9 +24,9 @@ body::-webkit-scrollbar{
 }
 
 header#logoContent{
-    display: flex;
-    align-self: flex-start;
+    display: flex; 
     margin: 20px;
+    margin-left: 100px;
 }
 
 main#fatherContainer{
@@ -34,10 +34,17 @@ main#fatherContainer{
     justify-content: space-evenly;  
 }
 
+div#asideContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
 
 img#ilustrationImage{
-    width: 600px;
-    padding-right: 20px;   
+    width: 45vw;
+    object-fit: fill;
 }
 
 footer#socialMedia{
@@ -51,23 +58,27 @@ div#mediaLink{
 
 h1 {
     max-width: 350px;
+    line-height: 1.8em;
+    font-size: 2em;
 }
 
 p#textContent{
     max-width: 600px;
+    line-height: 1.7em;
 }
 
 input#registerButton{
     font-family: "Open Sans", sans-serif;
     outline: none;
     border: none;
-    width: 150px;
-    height: 40px;
+    width: 170px;
+    height: 50px;
     box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.496);
     color: #4a23ac;
     border-radius: 150px;
     text-align: center;
     font-weight: 500;
+    margin-top: 15px;
 }
 input#registerButton:hover{
     background-color: #c36fff;
@@ -79,7 +90,8 @@ div#mediaLinks > a {
     color: white;
     border: 1px solid white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 7px;
+    margin: 7px;
 }
 
 div#mediaLinks > a:hover{
