@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with single introductory section solution   
 
-Essa é a resolução do desáfio proposto [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Através do Frontend Mentor, com a finalidade de por em prática meus aprendizados de HTML e CSS.
+Essa é a resolução do desáfio proposto [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).  Através do Frontend Mentor, com a finalidade de por em prática meus aprendizados de HTML e CSS.
 
 ## Tabela de Conteúdo
 
@@ -25,15 +25,17 @@ O usuário deve conseguir:
 
 ### Screenshot
 
-- Versao Desktop
+<p>Versao Desktop</p>
+
 ![](/images/Desktop-version.png)
 
-- Versão Mobile
+<p>Versão Mobile</p>
+
 ![](/images/Mobile-version.png)
 
 ### Links
 
-- URL da Solução: (https://wallissondev.github.io/frontend-mentor-huddle-landing-page/)
+- URL da Solução: ( https://wallissondev.github.io/frontend-mentor-huddle-landing-page/ )
 
 ### Construido Com
 
@@ -85,5 +87,5 @@ Levando em consideração pontos de melhorias, continuo meu desenvolvimento em H
 
 ## Autor
 
-- Website(Portfolio) - [Wallisson Moreira](https://wallissondev.github.io/projeto-portfolio/)
+- Website (Portfolio) - [Wallisson Moreira](https://wallissondev.github.io/projeto-portfolio/)
 - Instagram - [@wallisson_lima_](https://www.instagram.com/wallisson_lima_/)
